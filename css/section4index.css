@@ -1,0 +1,46 @@
+
+.--logros {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.--logros h3 {
+    color: #e6e6ef;
+    margin-bottom: 20px;
+}
+
+.--logro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.--valor {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 150px;
+    flex: 1 1 calc(15% - 20px); /* Flexibilidad para diferentes tamaños de pantalla */
+}
+
+.--valor h1 {
+    color: #ff6b6b;
+    font-size: 2em;
+    margin: 0;
+}
+
+.--valor p {
+    color: #858587;
+    margin: 10px 0;
+}
+
+.--valor hr {
+    border: 1px solid #858587;
+    width: 50%;
+    margin: 10px auto;
+}

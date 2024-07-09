@@ -1,0 +1,102 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #1c1c1c;
+    color: #ccc;
+}
+
+footer div {
+    flex: 1;
+    margin: 0 20px;
+}
+
+footer .--contact img {
+    width: 150px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .--links a,
+footer .--social a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+footer .--links a:hover,
+footer .--social a:hover {
+    color: #fff;
+}
+
+footer .--button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer .--button:hover {
+    background-color: #ff4c4c;
+}
+
+footer .--newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .--newsletter label {
+    margin-bottom: 5px;
+}
+
+footer .--newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer .--newsletter button {
+    padding: 10px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .--newsletter button:hover {
+    background-color: #ff4c4c;
+}
+
+footer .--social a {
+    margin-right: 10px;
+}
+
+footer .--social img {
+    width: 30px;
+    height: 30px;
+}
+
+footer .--social p {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}

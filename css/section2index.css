@@ -1,0 +1,99 @@
+
+.fondo{
+    background-color: #141416;
+}
+.--servicedesk {
+    border: 1px solid #434144;
+    background-color: #0C0C0D;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.--Plus {
+    
+    flex: 1;
+    padding: 20px;
+    background-color: hsl(0, 0%, 10%); /* Fondo oscuro */
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.--Plus h1 {
+    color: #f0f0f0;
+    width: 90%;
+    
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.--Plus p {
+    color: #858587;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.--Plus a {
+    color: #ff6b6b; /* Color de los enlaces */
+    text-decoration: none;
+}
+
+.--solution {
+    padding: 10px;
+    border: 1px solid#434144;
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    flex: 2;
+}
+
+.--solution div {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 10px solid #141416;
+}
+
+.--solution h3 {
+    color: #f0f0f0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.--solution p {
+    color: #858587;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.--solution hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #333;
+}
+
+
+.--solution .--nube{
+    width: 40%;
+}
+.--solution .--cienciadatos{
+    width: 40%;
+}
+.--solution .--versatilidad{
+    width: 40%;
+}
+.--solution .--CX{
+    width: 40%;
+}

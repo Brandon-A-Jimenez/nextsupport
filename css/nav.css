@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del header */
+header {
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos del logo */
+header a img {
+    height: 50px;
+}
+
+/* Estilos del nav y ul */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos de los li y a */
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    border-bottom: 2px solid white;
+}
+
+/* Estilos del submenu */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    padding: 0;
+    list-style-type: none;
+    min-width: 150px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+    white-space: nowrap;
+}
+
+/* Estilos para el carrito */
+nav ul li img {
+    vertical-align: middle;
+    background-color: #605e5e;
+}
