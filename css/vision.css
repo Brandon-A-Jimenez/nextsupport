@@ -1,0 +1,82 @@
+/* Reset some basic styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    background-color: #0C0C0D;
+    color: #858587;
+    padding: 20px;
+}
+
+.--contenido {
+    margin-bottom: 40px;
+}
+
+.--contenido h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.--contenido p {
+    font-size: 2.2em;
+    line-height: 1.6;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #2A2A2A;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #858587;
+    height: 60vh;
+    align-items: center;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #858587;
+    height: 60vh;
+    align-items: center;
+}
+
+.about h2, .team h2 {
+    display: flex;
+    width: 30%;
+    border: 2px solid #858587;
+    height: 60vh;
+    font-size: 1.5em;
+    margin-right: 20px;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.about p, .team p {
+    width: 50%;
+    padding: 30px;
+    font-size: 1em;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.about {
+    flex-direction: row;
+    text-align: left;
+}
+
+.team {
+    flex-direction: row;
+    text-align: left;
+}

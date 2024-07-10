@@ -1,0 +1,83 @@
+/* Reset some basic styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    background-color: #0C0C0D;
+    color: #858587;
+    padding: 20px;
+}
+
+.intro h1 {
+    text-decoration: none;
+    color: rgb(230, 224, 224);
+    padding: 40px;
+    width: 70%;
+    font-size: 3.5em;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.feature, .integration {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #2A2A2A;
+    margin-bottom: 20px;
+}
+
+.icon{
+    padding: 2.5em;
+    border: 1px solid#7e96f7;
+}
+.feature .icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.feature .content, .integration .content, .integration .content2 {
+    margin-left: 20px;
+}
+
+.feature .content h2, .integration .content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature .content p, .integration .content p, .integration .content2 p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.integration {
+    flex-direction: row;
+    height: 80vh;
+}
+
+.integration .content {
+    display: flex;
+    border: 1px solid#2A2A2A;
+    padding: 4.9%;
+    margin-left: 0;
+    width: 30%;
+    height: 60vh;
+    align-items: center;
+}
+.integration .content2{
+    display: flex;
+    align-items: center;
+    border: 1px solid#2A2A2A;
+    padding: 5%;
+    margin-right: 0;
+    width: 60%;
+    height: 60vh;
+}
