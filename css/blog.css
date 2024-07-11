@@ -1,0 +1,24 @@
+body {
+    background-color: #141416;
+    color: #858587;
+    font-family: Arial, sans-serif;
+}
+.--blog{
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.--alm{
+    background-color: #0c0c0e;
+    display: flex;
+    border: 1px solid #858587;
+    width: 93%;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin-bottom: 50px;
+}
