@@ -18,6 +18,7 @@ main {
 .--contenido h1 {
     font-size: 3.5em;
     margin-bottom: 20px;
+    color: rgb(230, 224, 224);
 }
 
 .--contenido p {
@@ -61,6 +62,7 @@ main {
     justify-content: center;
     text-align: center;
     align-items: center;
+    color: rgb(230, 224, 224);
 }
 
 .about p, .team p {

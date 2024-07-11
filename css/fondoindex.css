@@ -5,7 +5,7 @@ body {
 
 .--presite {
     position: relative;
-    background-image: url('../image/fondoindex.jpeg'); /* Ruta de la imagen de fondo */
+    background-image: linear-gradient(to right, rgb(0, 0, 0, 8), rgb(0, 0, 0, 0.1)),url('../image/fondoindex.jpeg'); /* Ruta de la imagen de fondo */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Altura de la ventana del navegador */
