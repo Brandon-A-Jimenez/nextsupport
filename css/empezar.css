@@ -1,0 +1,142 @@
+body {
+    background-color: #141416;
+    color: #858587;
+    font-family: Arial, sans-serif;
+}
+
+.presentar {
+    display: flex;
+    flex-direction: column;
+    background-color: #0C0C0D;
+    color: #858587;
+    padding: 20px;
+    height: 30vh;
+    justify-content: center;
+}
+
+.presentar h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.presentar p {
+    font-size: 2em;
+    margin: 0;
+}
+
+.caja {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.caja1 {
+    display: flex;
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #858587;
+    color: #858587;
+    height: 45vh;
+    font-size: 28px;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.caja2 {
+    width: 55%;
+    padding: 20px;
+    border: 1px solid #858587;
+    color: #858587;
+    height: 45vh;
+}
+
+.caja2 form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.caja2 form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.caja2 form .form-group label {
+    margin-bottom: 5px;
+}
+
+.caja2 form .form-group input {
+    padding: 10px;
+    border: 1px solid #858587;
+    background-color: #1e1e1f;
+    color: #fff;
+}
+
+.caja2 form .form-submit {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.caja2 form .form-submit input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff6961;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.caja2 form .form-submit input[type="submit"]:hover {
+    background-color: #e55750;
+}
+
+footer {
+    background-color: #0C0C0D;
+    padding: 20px;
+    color: #858587;
+}
+
+footer .contact, footer .links, footer .newsletter, footer .social {
+    margin-bottom: 20px;
+}
+
+footer .contact img {
+    width: 150px;
+}
+
+footer .links a {
+    color: #858587;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+footer .newsletter label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer .newsletter input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    background-color: #ff6961;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer .social a img {
+    width: 30px;
+    margin-right: 10px;
+}
