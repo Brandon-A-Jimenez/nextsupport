@@ -12,8 +12,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
 }
 
+@media (min-width: 768px){
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
 /* Estilos del logo */
 header a img {
     height: 50px;
@@ -21,11 +28,17 @@ header a img {
 
 /* Estilos del nav y ul */
 nav ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
+    flex-direction: column; /* Vertical por defecto */
+}
+
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row; /* Horizontal a partir de 768px */
+    }
 }
 
 /* Estilos de los li y a */
