@@ -19,11 +19,13 @@ main {
     font-size: 3.5em;
     margin-bottom: 20px;
     color: rgb(230, 224, 224);
+    padding-left: 80px;
 }
 
 .--contenido p {
     font-size: 2.2em;
     line-height: 1.6;
+    padding: 0 80px;
 }
 
 .about-us {
