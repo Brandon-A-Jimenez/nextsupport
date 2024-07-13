@@ -1,0 +1,12 @@
+.--container{
+    background: url(../image/motherboard.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+}
+.--container2{
+    background: url(../image/mezclador.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+}
